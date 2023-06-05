@@ -5,5 +5,5 @@ metadata:
   name: podinfo-env
   namespace: apps
 data:
-  PODINFO_UI_MESSAGE: "🎢 CloudLand 2023 R0ckX hard 🎸"
+  PODINFO_UI_MESSAGE: "✨🎢 CloudLand 2023 R0ckX hard in Production 🎸✨"
   PODINFO_BACKEND_URL: "http://podinfo.apps/echo"

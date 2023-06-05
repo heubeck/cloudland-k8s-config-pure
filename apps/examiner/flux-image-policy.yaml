@@ -9,4 +9,4 @@ spec:
     name: examiner
   policy:
     semver:
-      range: "~1.10"
+      range: "1.10.1"

@@ -12,10 +12,10 @@ spec:
   git:
     checkout:
       ref:
-        branch: non-prod
+        branch: production
     commit:
       messageTemplate: |
-        Automated image update of non-prod stage
+        Automated image update of production stage
 
         Automation name: {{ .AutomationObject }}
 
@@ -37,7 +37,7 @@ spec:
         email: flux@acti.on
         name: 📈 Flux-🤖
     push:
-      branch: non-prod
+      branch: production
   interval: 2m0s
   update:
     strategy: Setters
